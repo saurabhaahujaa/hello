@@ -1,3 +1,5 @@
+gcc -static -o prog prog.c
+
 buildah build --platform linux/arm64 -t docker.io/sauraahu/hello:v1.0-amd64 .
 
 buildah build --platform linux/arm64 -t docker.io/sauraahu/hello:v1.0-arm64 .
